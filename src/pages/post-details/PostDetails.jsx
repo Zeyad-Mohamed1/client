@@ -96,16 +96,7 @@ const PostDetails = () => {
           <span>{new Date(post?.createdAt).toDateString()}</span>
         </div>
       </div>
-      <p className="post-details-description">
-        {post?.desc}
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque cumque
-        dignissimos illum quo quaerat? Eveniet saepe corrupti optio provident
-        suscipit ab voluptatum, animi nobis at iusto obcaecati voluptas libero.
-        Quidem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
-        cumque dignissimos illum quo quaerat? Eveniet saepe corrupti optio
-        provident suscipit ab voluptatum, animi nobis at iusto obcaecati
-        voluptas libero. Quidem?
-      </p>
+      <p className="post-details-description">{post?.desc}</p>
       <div className="post-details-icon-wrapper">
         <div>
           {user && (
