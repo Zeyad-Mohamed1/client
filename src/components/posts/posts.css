@@ -88,7 +88,7 @@
     cursor: pointer;
 }
 
-.post-item-des {
+.post-item-description {
     font-size: 17px;
     line-height: 1.9;
     color: var(--secondary-color);
