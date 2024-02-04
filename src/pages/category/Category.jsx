@@ -15,7 +15,7 @@ const Category = () => {
   }, [category, dispatch]);
   return (
     <section className="category">
-      {postsCate.length === 0 ? (
+      {postsCate?.length === 0 ? (
         <>
           <h1 className="category-not-found">
             No posts found based on <span>{category}</span>
